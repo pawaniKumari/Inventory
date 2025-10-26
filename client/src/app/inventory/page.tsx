@@ -12,7 +12,7 @@ const columns: GridColDef[] = [
     headerName: "Price",
     width: 110,
     type: "number",
-    valueGetter: (value, row) => `$${row.price}`,
+    valueGetter: (value, row) => `Rs${row.price}`,
   },
   {
     field: "rating",
